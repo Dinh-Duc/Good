@@ -1,0 +1,2161 @@
+[
+  {
+    "title": "Tổng quan",
+    "key": "TONGQUAN",
+    "count": 100,
+    "childs": [],
+    "href": "https://app.powerbi.com/view?r=eyJrIjoiYzJhMzBkOTAtMGY1OC00M2ZmLWFlMmEtYmRmNWMyYzNmZTMyIiwidCI6IjY4ZTQxNzUxLTgwZDMtNDE4My1hZjdiLWE1YzQyMTJiZGZlNSIsImMiOjEwfQ%3D%3D",
+    "icon": ""
+  },
+  {
+    "title": "Nhiệm vụ của tôi",
+    "key": "NHIEMVUCUATOI",
+    "count": 100,
+    "childs": [],
+    "icon": "",
+    "dataApi": {
+        "nhiemvu":
+        {
+          "data_nv": [
+            {
+                "value": 30,
+                "text": "Chưa thực hiện",
+                "key":"CHUATHUCHIEN"
+            },
+            {
+                "value": 30,
+                "text": "Đang thực hiện",
+                "key":"DANGTHUCHIEN"
+            },
+            {
+                "value": 40,
+                "text": "Đã hoàn thành",
+                "key":"DAHOANTHANH"
+            }
+        ],
+        "status": [
+            {
+                "value": 30,
+                "name": "Quá hạn",
+                "key":"QUAHAN"
+            },
+            {
+                "value": 30,
+                "name": "Đến hạn",
+                "key":"DENHAN"
+            },
+            {
+                "value": 40,
+                "name": "Trong hạn",
+                "key":"TRONGHAN"
+            }
+        ],
+        "max_process": 30
+      },
+      "chartData": {
+        "title": "",
+        "element": "ThongKETINHTRANGXULY",
+        "bodyData": {
+          "chartType": "BasePieChart",
+          "data": [
+            {
+              "name": "Nhiệm vụ chính phủ",
+              "y": 55,
+              "color": "#05FBB7"
+            },
+            {
+              "name": "Nhiệm vụ Bộ",
+              "y": 45,
+              "color": "#7B00FD"
+            }
+          ]
+        }
+      },
+      "data_table":{
+        "fields": [
+            {
+              "key": "SONHIEMVU",
+              "label": "Số nhiệm vụ",
+              "sortable": false
+            },
+            {
+              "key": "NOIDUNG",
+              "label": "Nội dung",
+              "sortable": false
+            },
+            {
+              "key": "DVTHUCHIEN",
+              "label": "Đơn vị thực hiện",
+              "sortable": false
+            },
+            {
+              "key": "HANXULY",
+              "label": "Hạn xử lý",
+              "sortable": false
+            },
+            {
+              "key": "LOAINHIEMVU",
+              "label": "Loại nhiệm vụ",
+              "sortable": false
+            },
+            {
+              "key": "TRANGTHAIXL",
+              "label": "Trạng thái xử lý",
+              "sortable": false
+            },
+            {
+              "key": "TRANGTHAI",
+              "label": "Trạng thái",
+              "sortable": false
+            },
+            {
+              "key": "TINHCHAT",
+              "label": "Tính chất",
+              "sortable": false
+            }
+          ],
+          "items": [
+            {
+              "SONHIEMVU": "NVDV02",
+              "NOIDUNG": "Ban hành Kế hoạch Kiểm soát thủ tục hành chính năm 2021 của Bộ Tài nguyên và Môi trường",
+              "DVTHUCHIEN": "Công tyTNHH MTV Tài nguyên và Môi trường miền Nam",
+              "HANXULY": "10/05/2021",
+              "LOAINHIEMVU": "Nhiệm vụ Bộ",
+              "TRANGTHAIXL": "Quá hạn",
+              "TRANGTHAI": "Đang thực hiện",
+              "TINHCHAT": "Gấp"
+            },
+            {
+              "SONHIEMVU": "NVDV03",
+              "NOIDUNG": "Ban hành Danh mục mã định danh điện tử các cơ quan, đơn vị thuộc Bộ Tài nguyên và Môi trường; văn phòng các cơ quan, đơn vị do Thủ tướng Chính phủ quyết định thành lập đặt tại Bộ Tài nguyên và Môi trường phục vụ kết nối, chia sẻ dữ liệu với các hệ thống thông tin, cơ sở dữ liệu của các bộ, ngành, địa phương và các hệ thống thông tin nội bộ của Bộ Tài nguyên và Môi trường",
+              "DVTHUCHIEN": "Văn phòng Bộ",
+              "HANXULY": "17/05/2021",
+              "LOAINHIEMVU": "Nhiệm vụ Bộ",
+              "TRANGTHAIXL": "Trong hạn",
+              "TRANGTHAI": "Đã hoàn thành",
+              "TINHCHAT": "Gấp"
+            },
+            {
+              "SONHIEMVU": "NVDV04",
+              "NOIDUNG": "Về việc xây dựng kiểm điểm chỉ đạo, điều hành và xây dựng báo cáo tổng kết năm 2020",
+              "DVTHUCHIEN": "Văn phòng Bộ",
+              "HANXULY": "15/05/2032",
+              "LOAINHIEMVU": "Nhiệm vụ Bộ",
+              "TRANGTHAIXL": "Trong hạn",
+              "TRANGTHAI": "Chưa thực hiện",
+              "TINHCHAT": "Thường xuyên"
+            },
+            {
+              "SONHIEMVU": "NVDV05",
+              "NOIDUNG": "Về việc phê duyệt Kế hoạch đấu giá quyền khai thác khoáng sản",
+              "DVTHUCHIEN": "Tổng cục Địa chất và Khoáng sản",
+              "HANXULY": "16/05/2032",
+              "LOAINHIEMVU": "Nhiệm vụ Chính phủ",
+              "TRANGTHAIXL": "Trong hạn",
+              "TRANGTHAI": "Chưa thực hiện",
+              "TINHCHAT": "Thường xuyên"
+            }
+        ]
+      }
+     }
+  },
+  {
+    "title": "Nhiệm vụ đơn vị",
+    "key": "NHIEMVUDONVI",
+    "count": 100,
+    "childs": [],
+    "icon": "",
+    "dataApi": {
+      "nhiemvu":
+        {
+          "data_nv": [
+            {
+                "value": 21,
+                "text": "Chưa thực hiện",
+                "key":"CHUATHUCHIEN"
+            },
+            {
+                "value": 37,
+                "text": "Đang thực hiện",
+                "key":"DANGTHUCHIEN"
+            },
+            {
+                "value": 42,
+                "text": "Đã hoàn thành",
+                "key":"DAHOANTHANH"
+            }
+        ],
+        "status": [
+            {
+                "value": 5,
+                "name": "Quá hạn",
+                "key":"QUAHAN"
+            },
+            {
+                "value": 37,
+                "name": "Đến hạn",
+                "key":"DENHAN"
+            },
+            {
+                "value": 48,
+                "name": "Trong hạn",
+                "key":"TRONGHAN"
+            }
+        ],
+        "max_process": 30
+      },
+      "chartData": {
+        "title": "",
+        "element": "ThongKETINHTRANGXULY",
+        "bodyData": {
+          "chartType": "BasePieChart",
+          "data": [
+            {
+              "name": "Nhiệm vụ chính phủ",
+              "y": 70,
+              "color": "#05FBB7"
+            },
+            {
+              "name": "Nhiệm vụ Bộ",
+              "y": 30,
+              "color": "#7B00FD"
+            }
+          ]
+        }
+      },
+      "data_table":{
+        "fields": [
+            {
+              "key": "SONHIEMVU",
+              "label": "Số nhiệm vụ",
+              "sortable": false
+            },
+            {
+              "key": "NOIDUNG",
+              "label": "Nội dung",
+              "sortable": false
+            },
+            {
+              "key": "DVTHUCHIEN",
+              "label": "Đơn vị thực hiện",
+              "sortable": false
+            },
+            {
+              "key": "HANXULY",
+              "label": "Hạn xử lý",
+              "sortable": false
+            },
+            {
+              "key": "LOAINHIEMVU",
+              "label": "Loại nhiệm vụ",
+              "sortable": false
+            },
+            {
+              "key": "TRANGTHAIXL",
+              "label": "Trạng thái xử lý",
+              "sortable": false
+            },
+            {
+              "key": "TRANGTHAI",
+              "label": "Trạng thái",
+              "sortable": false
+            },
+            {
+              "key": "TINHCHAT",
+              "label": "Tính chất",
+              "sortable": false
+            }
+          ],
+          "items": [
+            {
+              "SONHIEMVU": "NVDV02",
+              "NOIDUNG": "Về việc phê duyệt Kế hoạch đấu giá quyền khai thác khoáng sản",
+              "DVTHUCHIEN": "Văn phòng Bộ",
+              "HANXULY": "10/05/2021",
+              "LOAINHIEMVU": "Nhiệm vụ Bộ",
+              "TRANGTHAIXL": "Quá hạn",
+              "TRANGTHAI": "Đang thực hiện",
+              "TINHCHAT": "Gấp"
+            },
+            {
+              "SONHIEMVU": "NVDV03",
+              "NOIDUNG": "Về việc tổ chức các lớp tập huấn, hướng dẫn sử dụng phần mềm “Hệ thống thông tin báo cáo tổng hợp ngành tài nguyên và môi trường” và phần mềm “Hệ thống tương tác trong chỉ đạo điều hành giữa Bộ với các Sở Tài nguyên và Môi trường địa phương”",
+              "DVTHUCHIEN": "Cục CNTT và dữ liệu TNMT",
+              "HANXULY": "17/05/2021",
+              "LOAINHIEMVU": "Nhiệm vụ Bộ",
+              "TRANGTHAIXL": "Trong hạn",
+              "TRANGTHAI": "Đã hoàn thành",
+              "TINHCHAT": "Gấp"
+            },
+            {
+              "SONHIEMVU": "NVDV04",
+              "NOIDUNG": "Về việc phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ tỉnh Hà Giang",
+              "DVTHUCHIEN": "Văn phòng Hội đồng đánh giá trữ lượng khoáng sản",
+              "HANXULY": "15/05/2032",
+              "LOAINHIEMVU": "Nhiệm vụ Bộ",
+              "TRANGTHAIXL": "Trong hạn",
+              "TRANGTHAI": "Chưa thực hiện",
+              "TINHCHAT": "Thường xuyên"
+            },
+            {
+              "SONHIEMVU": "NVDV05",
+              "NOIDUNG": "Về việc phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ tỉnh Lào Cai",
+              "DVTHUCHIEN": "Tổng cục Địa chất và Khoáng sản",
+              "HANXULY": "16/05/2032",
+              "LOAINHIEMVU": "Nhiệm vụ Chính phủ",
+              "TRANGTHAIXL": "Trong hạn",
+              "TRANGTHAI": "Chưa thực hiện",
+              "TINHCHAT": "Thường xuyên"
+            }
+        ]
+      }
+     }
+  },
+  {
+    "title": "Mức độ",
+    "key": "MUCDONV",
+    "count": 0,
+    "childs": [
+      {
+        "title": "Gấp",
+        "key": "GAP",
+        "count": 30,
+        "childs": [],
+        "icon": "LayersIcon",
+        "dataApi": {
+          "nhiemvu":
+            {
+              "data_nv": [
+                {
+                    "value": 5,
+                    "text": "Chưa thực hiện",
+                    "key":"CHUATHUCHIEN"
+                },
+                {
+                    "value": 13,
+                    "text": "Đang thực hiện",
+                    "key":"DANGTHUCHIEN"
+                },
+                {
+                    "value": 12,
+                    "text": "Đã hoàn thành",
+                    "key":"DAHOANTHANH"
+                }
+            ],
+            "status": [
+                {
+                    "value": 6,
+                    "name": "Quá hạn",
+                    "key":"QUAHAN"
+                },
+                {
+                    "value": 7,
+                    "name": "Đến hạn",
+                    "key":"DENHAN"
+                },
+                {
+                    "value": 17,
+                    "name": "Trong hạn",
+                    "key":"TRONGHAN"
+                }
+            ],
+            "max_process": 30
+          },
+          "chartData": {
+          },
+          "thongke": [
+            {
+                "name": "Vụ Địa chất",
+                "value": 5,
+                "max": 8
+            },
+            {
+                "name": "Vụ Khoáng sản",
+                "value": 7,
+                "max": 15
+            },
+            {
+                "name": "Vụ Chính sách và Pháp chế",
+                "value": 9,
+                "max": 10
+            },
+            {
+                "name": "Vụ Khoa học, Công nghệ và Hợp tác quốc tế",
+                "value": 11,
+                "max": 31
+            },
+            {
+                "name": "Vụ Kế hoạch - Tài chính",
+                "value": 13,
+                "max": 15
+            },
+            {
+                "name": "Vụ Tổ chức cán bộ",
+                "value": 17,
+                "max": 24
+            },
+            {
+                "name": "Văn phòng Tổng cục",
+                "value": 8,
+                "max": 18
+            },
+            {
+                "name": "Cục Kinh tế Địa chất và Khoáng sản",
+                "value": 3,
+                "max": 5
+            },
+            {
+                "name": "Cục Kiểm soát hoạt động khoáng sản miền Bắc",
+                "value": 7,
+                "max": 9
+            },
+            {
+                "name": "Cục Kiểm soát hoạt động khoáng sản miền Trung",
+                "value": 8,
+                "max": 18
+            },
+            {
+                "name": "Cục Kiểm soát hoạt động khoáng sản miền Nam",
+                "value": 3,
+                "max": 11
+            },
+            {
+                "name": "Liên đoàn Bản đồ Địa chất miền Bắc",
+                "value": 4,
+                "max": 9
+            },
+            {
+                "name": "Liên đoàn Bản đồ Địa chất miền Nam",
+                "value": 9,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Đông Bắc",
+                "value": 7,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Tây Bắc",
+                "value": 6,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Bắc Trung Bộ",
+                "value": 4,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Trung Trung Bộ",
+                "value": 4,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Xạ - Hiếm",
+                "value": 4,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Vật lý Địa chất",
+                "value": 6,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn INTERGEO",
+                "value": 6,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất và Khoáng sản biển",
+                "value": 2,
+                "max": 28
+            },
+            {
+                "name": "Trung tâm Kiểm định địa chất",
+                "value": 5,
+                "max": 28
+            },
+            {
+                "name": "Trung tâm Phân tích thí nghiệm địa chất",
+                "value": 7,
+                "max": 28
+            },
+            {
+                "name": "Trung tâm Thông tin, Lưu trữ và Tạp chí địa chất",
+                "value": 8,
+                "max": 28
+            },
+            {
+                "name": "Bảo tàng Địa chất",
+                "value": 6,
+                "max": 28
+            }
+        ],
+          "data_table":{
+            "fields": [
+                {
+                  "key": "SONHIEMVU",
+                  "label": "Số nhiệm vụ",
+                  "sortable": false
+                },
+                {
+                  "key": "NOIDUNG",
+                  "label": "Nội dung",
+                  "sortable": false
+                },
+                {
+                  "key": "DVTHUCHIEN",
+                  "label": "Đơn vị thực hiện",
+                  "sortable": false
+                },
+                {
+                  "key": "HANXULY",
+                  "label": "Hạn xử lý",
+                  "sortable": false
+                },
+                {
+                  "key": "LOAINHIEMVU",
+                  "label": "Loại nhiệm vụ",
+                  "sortable": false
+                },
+                {
+                  "key": "TRANGTHAIXL",
+                  "label": "Trạng thái xử lý",
+                  "sortable": false
+                },
+                {
+                  "key": "TRANGTHAI",
+                  "label": "Trạng thái",
+                  "sortable": false
+                },
+                {
+                  "key": "TINHCHAT",
+                  "label": "Tính chất",
+                  "sortable": false
+                }
+              ],
+              "items": [
+                {
+                  "SONHIEMVU": "NVDV02",
+                  "NOIDUNG": "Chỉ thị về một số giải pháp cấp bách quản lý động vật hoang dã",
+                  "DVTHUCHIEN": "Tổng cục Địa chất và Khoáng sản Việt Nam",
+                  "HANXULY": "10/07/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ địa phương",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đang xử lý",
+                  "TINHCHAT": "Gấp"
+                },
+                {
+                  "SONHIEMVU": "NVDV03",
+                  "NOIDUNG": "Về việc ban hành Quy chế hoạt động của Ủy ban chỉ đạo quốc gia về thực hiện Chiến lược phát triển bền vững kinh tế biển Việt Nam đến năm 2030, tầm nhìn đến năm 2045",
+                  "DVTHUCHIEN": "Tổng cục Địa chất và Khoáng sản Việt Nam",
+                  "HANXULY": "17/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Chưa xử lý",
+                  "TINHCHAT": "Gấp"
+                },
+                {
+                  "SONHIEMVU": "NVDV09",
+                  "NOIDUNG": "Về việc tiếp tục tăng cường công tác quản lý nhà nước đối với các hoạt động thăm dò, khai thác, chế biến, sử dụng và xuất khẩu khoáng sản",
+                  "DVTHUCHIEN": "Vụ Kế hoạch - Tài chính",
+                  "HANXULY": "10/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ địa phương",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đang xử lý",
+                  "TINHCHAT": "Gấp"
+                },
+                {
+                  "SONHIEMVU": "NVDV10",
+                  "NOIDUNG": "Tổng hợp số đoàn ra nước ngoài nghiên cứu, khảo sát về lĩnh vực nội vụ",
+                  "DVTHUCHIEN": "Vụ Kế hoạch - Tài chính",
+                  "HANXULY": "17/06/202",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Chưa xử lý",
+                  "TINHCHAT": "Gấp"
+                },
+                {
+                  "SONHIEMVU": "NVDV11",
+                  "NOIDUNG": "Tổng hợp số đoàn của nước ngoài, tổ chức quốc tế vào nghiên cứu, khảo sát, giới thiệu về lĩnh vực nội vụ tại Việt Nam",
+                  "DVTHUCHIEN": "Văn phòng Hội đồng đánh giá trữ lượng khoáng sản quốc gia",
+                  "HANXULY": "10/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đã xử lý",
+                  "TINHCHAT": "Gấp"
+                }
+            ]
+          }
+         }
+      },
+      {
+        "title": "Đặc thù",
+        "key": "QUANTRONG",
+        "count": 27,
+        "childs": [],
+        "icon": "LayersIcon",
+        "dataApi": {
+          "nhiemvu":
+            {
+              "data_nv": [
+                {
+                    "value": 5,
+                    "text": "Chưa thực hiện",
+                    "key":"CHUATHUCHIEN"
+                },
+                {
+                    "value": 9,
+                    "text": "Đang thực hiện",
+                    "key":"DANGTHUCHIEN"
+                },
+                {
+                    "value": 13,
+                    "text": "Đã hoàn thành",
+                    "key":"DAHOANTHANH"
+                }
+            ],
+            "status": [
+                {
+                    "value": 10,
+                    "name": "Quá hạn",
+                    "key":"QUAHAN"
+                },
+                {
+                    "value": 5,
+                    "name": "Đến hạn",
+                    "key":"DENHAN"
+                },
+                {
+                    "value": 12,
+                    "name": "Trong hạn",
+                    "key":"TRONGHAN"
+                }
+            ],
+            "max_process": 27
+          },
+          "chartData": {
+          },
+          "thongke": [
+            {
+                "name": "Vụ Địa chất",
+                "value": 5,
+                "max": 8
+            },
+            {
+                "name": "Vụ Khoáng sản",
+                "value": 7,
+                "max": 15
+            },
+            {
+                "name": "Vụ Chính sách và Pháp chế",
+                "value": 9,
+                "max": 10
+            },
+            {
+                "name": "Vụ Khoa học, Công nghệ và Hợp tác quốc tế",
+                "value": 11,
+                "max": 31
+            },
+            {
+                "name": "Vụ Kế hoạch - Tài chính",
+                "value": 13,
+                "max": 15
+            },
+            {
+                "name": "Vụ Tổ chức cán bộ",
+                "value": 17,
+                "max": 24
+            },
+            {
+                "name": "Văn phòng Tổng cục",
+                "value": 8,
+                "max": 18
+            },
+            {
+                "name": "Cục Kinh tế Địa chất và Khoáng sản",
+                "value": 3,
+                "max": 5
+            },
+            {
+                "name": "Cục Kiểm soát hoạt động khoáng sản miền Bắc",
+                "value": 7,
+                "max": 9
+            },
+            {
+                "name": "Cục Kiểm soát hoạt động khoáng sản miền Trung",
+                "value": 8,
+                "max": 18
+            },
+            {
+                "name": "Cục Kiểm soát hoạt động khoáng sản miền Nam",
+                "value": 3,
+                "max": 11
+            },
+            {
+                "name": "Liên đoàn Bản đồ Địa chất miền Bắc",
+                "value": 4,
+                "max": 9
+            },
+            {
+                "name": "Liên đoàn Bản đồ Địa chất miền Nam",
+                "value": 9,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Đông Bắc",
+                "value": 7,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Tây Bắc",
+                "value": 6,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Bắc Trung Bộ",
+                "value": 4,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Trung Trung Bộ",
+                "value": 4,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Xạ - Hiếm",
+                "value": 4,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Vật lý Địa chất",
+                "value": 6,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn INTERGEO",
+                "value": 6,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất và Khoáng sản biển",
+                "value": 2,
+                "max": 28
+            },
+            {
+                "name": "Trung tâm Kiểm định địa chất",
+                "value": 5,
+                "max": 28
+            },
+            {
+                "name": "Trung tâm Phân tích thí nghiệm địa chất",
+                "value": 7,
+                "max": 28
+            },
+            {
+                "name": "Trung tâm Thông tin, Lưu trữ và Tạp chí địa chất",
+                "value": 8,
+                "max": 28
+            },
+            {
+                "name": "Bảo tàng Địa chất",
+                "value": 6,
+                "max": 28
+            }
+        ],
+          "data_table":{
+            "fields": [
+                {
+                  "key": "SONHIEMVU",
+                  "label": "Số nhiệm vụ",
+                  "sortable": false
+                },
+                {
+                  "key": "NOIDUNG",
+                  "label": "Nội dung",
+                  "sortable": false
+                },
+                {
+                  "key": "DVTHUCHIEN",
+                  "label": "Đơn vị thực hiện",
+                  "sortable": false
+                },
+                {
+                  "key": "HANXULY",
+                  "label": "Hạn xử lý",
+                  "sortable": false
+                },
+                {
+                  "key": "LOAINHIEMVU",
+                  "label": "Loại nhiệm vụ",
+                  "sortable": false
+                },
+                {
+                  "key": "TRANGTHAIXL",
+                  "label": "Trạng thái xử lý",
+                  "sortable": false
+                },
+                {
+                  "key": "TRANGTHAI",
+                  "label": "Trạng thái",
+                  "sortable": false
+                },
+                {
+                  "key": "TINHCHAT",
+                  "label": "Tính chất",
+                  "sortable": false
+                }
+              ],
+              "items": [
+                {
+                  "SONHIEMVU": "NVDV01",
+                  "NOIDUNG": "V/v báo cáo tình hình thực hiện kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019",
+                  "DVTHUCHIEN": "Văn phòng Bộ",
+                  "HANXULY": "10/6/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đang xử lý",
+                  "TINHCHAT": "Đặc thù"
+                },
+                {
+                  "SONHIEMVU": "NVDV06",
+                  "NOIDUNG": "Thống kê số lượng biên chế được giao",
+                  "DVTHUCHIEN": "Văn phòng Bộ",
+                  "HANXULY": "8/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đã hoàn thành",
+                  "TINHCHAT": "Đặc thù"
+                },
+                {
+                  "SONHIEMVU": "NVDV08",
+                  "NOIDUNG": "Về một số giải pháp cấp bách quản lý động vật hoang dã",
+                  "DVTHUCHIEN": "Văn phòng Hội đồng đánh giá trữ lượng khoáng sản quốc gia",
+                  "HANXULY": "20/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đã xử lý",
+                  "TINHCHAT": "Đặc thù"
+                },
+                {
+                  "SONHIEMVU": "NVDV12",
+                  "NOIDUNG": "Thống kê số lượng hội, tổ chức phi chính phủ",
+                  "DVTHUCHIEN": "Vụ Tổ chức phi chính phủ",
+                  "HANXULY": "25/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đang xử lý",
+                  "TINHCHAT": "Đặc thù"
+                },
+                {
+                  "SONHIEMVU": "NVDV14",
+                  "NOIDUNG": "Thống kê số lượng khen thưởng cấp nhà nước",
+                  "DVTHUCHIEN": "Viện Khoa học Địa chất và Khoáng sản",
+                  "HANXULY": "30/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Chưa xử lý",
+                  "TINHCHAT": "Đặc thù"
+                }
+            ]
+          }
+         }
+      },
+      {
+        "title": "Thường xuyên",
+        "key": "BINHTHUONG",
+        "count": 43,
+        "childs": [],
+        "icon": "LayersIcon",
+        "dataApi": {
+          "nhiemvu":
+            {
+              "data_nv": [
+                {
+                    "value": 8,
+                    "text": "Chưa thực hiện",
+                    "key":"CHUATHUCHIEN"
+                },
+                {
+                    "value": 15,
+                    "text": "Đang thực hiện",
+                    "key":"DANGTHUCHIEN"
+                },
+                {
+                    "value": 17,
+                    "text": "Đã hoàn thành",
+                    "key":"DAHOANTHANH"
+                }
+            ],
+            "status": [
+                {
+                    "value": 6,
+                    "name": "Quá hạn",
+                    "key":"QUAHAN"
+                },
+                {
+                    "value": 20,
+                    "name": "Đến hạn",
+                    "key":"DENHAN"
+                },
+                {
+                    "value": 14,
+                    "name": "Trong hạn",
+                    "key":"TRONGHAN"
+                }
+            ],
+            "max_process": 40
+          },
+          "chartData": {
+          },
+          "thongke": [
+            {
+                "name": "Vụ Địa chất",
+                "value": 5,
+                "max": 8
+            },
+            {
+                "name": "Vụ Khoáng sản",
+                "value": 7,
+                "max": 15
+            },
+            {
+                "name": "Vụ Chính sách và Pháp chế",
+                "value": 9,
+                "max": 10
+            },
+            {
+                "name": "Vụ Khoa học, Công nghệ và Hợp tác quốc tế",
+                "value": 11,
+                "max": 31
+            },
+            {
+                "name": "Vụ Kế hoạch - Tài chính",
+                "value": 13,
+                "max": 15
+            },
+            {
+                "name": "Vụ Tổ chức cán bộ",
+                "value": 17,
+                "max": 24
+            },
+            {
+                "name": "Văn phòng Tổng cục",
+                "value": 8,
+                "max": 18
+            },
+            {
+                "name": "Cục Kinh tế Địa chất và Khoáng sản",
+                "value": 3,
+                "max": 5
+            },
+            {
+                "name": "Cục Kiểm soát hoạt động khoáng sản miền Bắc",
+                "value": 7,
+                "max": 9
+            },
+            {
+                "name": "Cục Kiểm soát hoạt động khoáng sản miền Trung",
+                "value": 8,
+                "max": 18
+            },
+            {
+                "name": "Cục Kiểm soát hoạt động khoáng sản miền Nam",
+                "value": 3,
+                "max": 11
+            },
+            {
+                "name": "Liên đoàn Bản đồ Địa chất miền Bắc",
+                "value": 4,
+                "max": 9
+            },
+            {
+                "name": "Liên đoàn Bản đồ Địa chất miền Nam",
+                "value": 9,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Đông Bắc",
+                "value": 7,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Tây Bắc",
+                "value": 6,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Bắc Trung Bộ",
+                "value": 4,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Trung Trung Bộ",
+                "value": 4,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất Xạ - Hiếm",
+                "value": 4,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Vật lý Địa chất",
+                "value": 6,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn INTERGEO",
+                "value": 6,
+                "max": 28
+            },
+            {
+                "name": "Liên đoàn Địa chất và Khoáng sản biển",
+                "value": 2,
+                "max": 28
+            },
+            {
+                "name": "Trung tâm Kiểm định địa chất",
+                "value": 5,
+                "max": 28
+            },
+            {
+                "name": "Trung tâm Phân tích thí nghiệm địa chất",
+                "value": 7,
+                "max": 28
+            },
+            {
+                "name": "Trung tâm Thông tin, Lưu trữ và Tạp chí địa chất",
+                "value": 8,
+                "max": 28
+            },
+            {
+                "name": "Bảo tàng Địa chất",
+                "value": 6,
+                "max": 28
+            }
+        ],
+          "data_table":{
+            "fields": [
+                {
+                  "key": "SONHIEMVU",
+                  "label": "Số nhiệm vụ",
+                  "sortable": false
+                },
+                {
+                  "key": "NOIDUNG",
+                  "label": "Nội dung",
+                  "sortable": false
+                },
+                {
+                  "key": "DVTHUCHIEN",
+                  "label": "Đơn vị thực hiện",
+                  "sortable": false
+                },
+                {
+                  "key": "HANXULY",
+                  "label": "Hạn xử lý",
+                  "sortable": false
+                },
+                {
+                  "key": "LOAINHIEMVU",
+                  "label": "Loại nhiệm vụ",
+                  "sortable": false
+                },
+                {
+                  "key": "TRANGTHAIXL",
+                  "label": "Trạng thái xử lý",
+                  "sortable": false
+                },
+                {
+                  "key": "TRANGTHAI",
+                  "label": "Trạng thái",
+                  "sortable": false
+                },
+                {
+                  "key": "TINHCHAT",
+                  "label": "Tính chất",
+                  "sortable": false
+                }
+              ],
+              "items": [
+                {
+                  "SONHIEMVU": "NVDV04",
+                  "NOIDUNG": "Về việc phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ tỉnh Lào Cai",
+                  "DVTHUCHIEN": "Tổng cục Địa chất và Khoáng sản Việt Nam",
+                  "HANXULY": "15/05/2032",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Chưa xử lý",
+                  "TINHCHAT": "Thường xuyên"
+                },
+                {
+                  "SONHIEMVU": "NVDV05",
+                  "NOIDUNG": "Về việc phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ tỉnh Hà Giang",
+                  "DVTHUCHIEN": "Văn phòng Bộ",
+                  "HANXULY": "16/5/2032",
+                  "LOAINHIEMVU": "Nhiệm vụ Chính phủ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Chưa xử lý",
+                  "TINHCHAT": "Thường xuyên"
+                },
+                {
+                  "SONHIEMVU": "NVDV07",
+                  "NOIDUNG": "Về việc tổ chức các lớp tập huấn, hướng dẫn sử dụng phần mềm “Hệ thống thông tin báo cáo tổng hợp ngành tài nguyên và môi trường” và phần mềm “Hệ thống tương tác trong chỉ đạo điều hành giữa Bộ với các Sở Tài nguyên và Môi trường địa phương”",
+                  "DVTHUCHIEN": "Văn phòng Bộ",
+                  "HANXULY": "13/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đã xử lý",
+                  "TINHCHAT": "Thường xuyên"
+                },
+                {
+                  "SONHIEMVU": "NVDV15",
+                  "NOIDUNG": "Về việc phê duyệt Kế hoạch đấu giá quyền khai thác khoáng sản",
+                  "DVTHUCHIEN": "Viện Khoa học Địa chất và Khoáng sản",
+                  "HANXULY": "20/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đang xử lý",
+                  "TINHCHAT": "Thường xuyên"
+                },
+                {
+                  "SONHIEMVU": "NVDV20",
+                  "NOIDUNG": "Về việc xây dựng kiểm điểm chỉ đạo, điều hành và xây dựng báo cáo tổng kết năm 2020",
+                  "DVTHUCHIEN": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                  "HANXULY": "22/05/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đang xử lý",
+                  "TINHCHAT": "Thường xuyên"
+                }
+            ]
+          }
+         }
+      }
+    ],
+    "icon": ""
+  },
+  {
+    "title": "Loại nhiệm vụ",
+    "key": "LOAINHIEMVU",
+    "count": 0,
+    "childs": [
+      {
+        "title": "Nhiệm vụ chính phủ",
+        "key": "NHIEMVUCHINHPHU",
+        "count":  40,
+        "childs": [],
+        "icon": "LayersIcon",
+        "dataApi": {
+          "nhiemvu":
+          {
+            "data_nv": [
+              {
+                  "value": 20,
+                  "text": "Chưa thực hiện",
+                  "key":"CHUATHUCHIEN"
+              },
+              {
+                  "value": 9,
+                  "text": "Đang thực hiện",
+                  "key":"DANGTHUCHIEN"
+              },
+              {
+                  "value": 11,
+                  "text": "Đã hoàn thành",
+                  "key":"DAHOANTHANH"
+              }
+          ],
+          "status": [
+              {
+                  "value": 8,
+                  "name": "Quá hạn",
+                  "key":"QUAHAN"
+              },
+              {
+                  "value": 15,
+                  "name": "Đến hạn",
+                  "key":"DENHAN"
+              },
+              {
+                  "value": 17,
+                  "name": "Trong hạn",
+                  "key":"TRONGHAN"
+              }
+          ],
+          "max_process": 40
+        },
+          "chartData": {
+          },
+          "thongke": [
+            {
+                "name": "Văn phòng Bộ",
+                "value": 5,
+                "max": 8
+            },
+            {
+                "name": "Vụ Kế hoạch - Tài chính",
+                "value": 7,
+                "max": 15
+            },
+            {
+                "name": "Tổng cục Địa chất và Khoáng sản Việt Nam",
+                "value": 9,
+                "max": 10
+            },
+            {
+                "name": "Văn phòng Hội đồng đánh giá trữ lượng khoáng sản quốc gia",
+                "value": 11,
+                "max": 31
+            },
+            {
+                "name": "Cục CNTT và dữ liệu tài nguyên môi trường",
+                "value": 13,
+                "max": 15
+            },
+            {
+                "name": "Viện Khoa học Địa chất và Khoáng sản",
+                "value": 17,
+                "max": 24
+            },
+            {
+                "name": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                "value": 8,
+                "max": 18
+            },
+            {
+                "name": "Viện Khoa học Địa chất và Khoáng sản",
+                "value": 3,
+                "max": 5
+            },
+            {
+                "name": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                "value": 7,
+                "max": 9
+            },
+            {
+                "name": "Văn phòng Hội đồng đánh giá trữ lượng khoáng sản quốc gia",
+                "value": 8,
+                "max": 18
+            },
+            {
+                "name": "Công ty TNHH MTV Tài nguyên và Môi trường Việt Nam",
+                "value": 3,
+                "max": 11
+            },
+            {
+                "name": "Công tyTNHH MTV Tài nguyên và Môi trường miền Nam",
+                "value": 4,
+                "max": 9
+            },
+            {
+                "name": "Công ty TNHH MTV Nhà xuất bản Tài nguyên - Môi trường và Bản đồ Việt Nam",
+                "value": 9,
+                "max": 28
+            }
+        ],
+          "data_table":{
+            "fields": [
+                {
+                  "key": "SONHIEMVU",
+                  "label": "Số nhiệm vụ",
+                  "sortable": false
+                },
+                {
+                  "key": "NOIDUNG",
+                  "label": "Nội dung",
+                  "sortable": false
+                },
+                {
+                  "key": "DVTHUCHIEN",
+                  "label": "Đơn vị thực hiện",
+                  "sortable": false
+                },
+                {
+                  "key": "HANXULY",
+                  "label": "Hạn xử lý",
+                  "sortable": false
+                },
+                {
+                  "key": "LOAINHIEMVU",
+                  "label": "Loại nhiệm vụ",
+                  "sortable": false
+                },
+                {
+                  "key": "TRANGTHAIXL",
+                  "label": "Trạng thái xử lý",
+                  "sortable": false
+                },
+                {
+                  "key": "TRANGTHAI",
+                  "label": "Trạng thái",
+                  "sortable": false
+                },
+                {
+                  "key": "TINHCHAT",
+                  "label": "Tính chất",
+                  "sortable": false
+                }
+              ],
+              "items": [
+                {
+                  "SONHIEMVU": "NVDV04",
+                  "NOIDUNG": "Về việc phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ tỉnh Lào Cai",
+                  "DVTHUCHIEN": "Tổng cục Địa chất và Khoáng sản Việt Nam",
+                  "HANXULY": "15/05/2032",
+                  "LOAINHIEMVU": "Nhiệm vụ Chính phủ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Chưa xử lý",
+                  "TINHCHAT": "Bình thường"
+                },
+                {
+                  "SONHIEMVU": "NVDV05",
+                  "NOIDUNG": "Về việc phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ tỉnh Hà Giang",
+                  "DVTHUCHIEN": "Văn phòng Bộ",
+                  "HANXULY": "16/5/2032",
+                  "LOAINHIEMVU": "Nhiệm vụ Chính phủ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Chưa xử lý",
+                  "TINHCHAT": "Quan trọng"
+                },
+                {
+                  "SONHIEMVU": "NVDV07",
+                  "NOIDUNG": "Về việc tổ chức các lớp tập huấn, hướng dẫn sử dụng phần mềm “Hệ thống thông tin báo cáo tổng hợp ngành tài nguyên và môi trường” và phần mềm “Hệ thống tương tác trong chỉ đạo điều hành giữa Bộ với các Sở Tài nguyên và Môi trường địa phương”",
+                  "DVTHUCHIEN": "Văn phòng Bộ",
+                  "HANXULY": "13/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ chính phủ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đã xử lý",
+                  "TINHCHAT": "Gấp"
+                },
+                {
+                  "SONHIEMVU": "NVDV15",
+                  "NOIDUNG": "Về việc phê duyệt Kế hoạch đấu giá quyền khai thác khoáng sản",
+                  "DVTHUCHIEN": "Viện Khoa học Địa chất và Khoáng sản",
+                  "HANXULY": "10/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ chính phủ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đã xử lý",
+                  "TINHCHAT": "Bình thường"
+                },
+                {
+                  "SONHIEMVU": "NVDV20",
+                  "NOIDUNG": "Về việc xây dựng kiểm điểm chỉ đạo, điều hành và xây dựng báo cáo tổng kết năm 2020",
+                  "DVTHUCHIEN": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                  "HANXULY": "22/05/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ chính phủ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đang xử lý",
+                  "TINHCHAT": "Gấp"
+                }
+            ]
+          }
+         }
+      },
+      {
+        "title": "Nhiệm vụ Bộ",
+        "key": "HOIDONGNHANDAN",
+        "count": 60,
+        "childs": [],
+        "icon": "LayersIcon",
+        "dataApi": {
+          "nhiemvu":
+          {
+            "data_nv": [
+              {
+                  "value": 25,
+                  "text": "Chưa thực hiện",
+                  "key":"CHUATHUCHIEN"
+              },
+              {
+                  "value": 10,
+                  "text": "Đang thực hiện",
+                  "key":"DANGTHUCHIEN"
+              },
+              {
+                  "value": 25,
+                  "text": "Đã hoàn thành",
+                  "key":"DAHOANTHANH"
+              }
+          ],
+          "status": [
+              {
+                  "value": 15,
+                  "name": "Quá hạn",
+                  "key":"QUAHAN"
+              },
+              {
+                  "value": 13,
+                  "name": "Đến hạn",
+                  "key":"DENHAN"
+              },
+              {
+                  "value": 32,
+                  "name": "Trong hạn",
+                  "key":"TRONGHAN"
+              }
+          ],
+          "max_process": 60
+        },
+          "chartData": {
+          },
+          "thongke": [
+            {
+                "name": "Văn phòng Bộ",
+                "value": 5,
+                "max": 8
+            },
+            {
+                "name": "Vụ Kế hoạch - Tài chính",
+                "value": 7,
+                "max": 15
+            },
+            {
+                "name": "Tổng cục Địa chất và Khoáng sản Việt Nam",
+                "value": 9,
+                "max": 10
+            },
+            {
+                "name": "Văn phòng Hội đồng đánh giá trữ lượng khoáng sản quốc gia",
+                "value": 11,
+                "max": 31
+            },
+            {
+                "name": "Cục CNTT và dữ liệu tài nguyên môi trường",
+                "value": 13,
+                "max": 15
+            },
+            {
+                "name": "Viện Khoa học Địa chất và Khoáng sản",
+                "value": 17,
+                "max": 24
+            },
+            {
+                "name": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                "value": 8,
+                "max": 18
+            },
+            {
+                "name": "Viện Khoa học Địa chất và Khoáng sản",
+                "value": 3,
+                "max": 5
+            },
+            {
+                "name": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                "value": 7,
+                "max": 9
+            },
+            {
+                "name": "Văn phòng Hội đồng đánh giá trữ lượng khoáng sản quốc gia",
+                "value": 8,
+                "max": 18
+            },
+            {
+                "name": "Công ty TNHH MTV Tài nguyên và Môi trường Việt Nam",
+                "value": 3,
+                "max": 11
+            },
+            {
+                "name": "Công tyTNHH MTV Tài nguyên và Môi trường miền Nam",
+                "value": 4,
+                "max": 9
+            },
+            {
+                "name": "Công ty TNHH MTV Nhà xuất bản Tài nguyên - Môi trường và Bản đồ Việt Nam",
+                "value": 9,
+                "max": 28
+            }
+        ],
+          "data_table":{
+            "fields": [
+                {
+                  "key": "SONHIEMVU",
+                  "label": "Số nhiệm vụ",
+                  "sortable": false
+                },
+                {
+                  "key": "NOIDUNG",
+                  "label": "Nội dung",
+                  "sortable": false
+                },
+                {
+                  "key": "DVTHUCHIEN",
+                  "label": "Đơn vị thực hiện",
+                  "sortable": false
+                },
+                {
+                  "key": "HANXULY",
+                  "label": "Hạn xử lý",
+                  "sortable": false
+                },
+                {
+                  "key": "LOAINHIEMVU",
+                  "label": "Loại nhiệm vụ",
+                  "sortable": false
+                },
+                {
+                  "key": "TRANGTHAIXL",
+                  "label": "Trạng thái xử lý",
+                  "sortable": false
+                },
+                {
+                  "key": "TRANGTHAI",
+                  "label": "Trạng thái",
+                  "sortable": false
+                },
+                {
+                  "key": "TINHCHAT",
+                  "label": "Tính chất",
+                  "sortable": false
+                }
+              ],
+              "items": [
+                {
+                  "SONHIEMVU": "NVDV04",
+                  "NOIDUNG": "Về việc phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ tỉnh Lào Cai",
+                  "DVTHUCHIEN": "Tổng cục Địa chất và Khoáng sản Việt Nam",
+                  "HANXULY": "15/05/2032",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Chưa xử lý",
+                  "TINHCHAT": "Quan trọng"
+                },
+                {
+                  "SONHIEMVU": "NVDV05",
+                  "NOIDUNG": "Về việc phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ tỉnh Hà Giang",
+                  "DVTHUCHIEN": "Văn phòng Bộ",
+                  "HANXULY": "16/5/2032",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Chưa xử lý",
+                  "TINHCHAT": "Quan trọng"
+                },
+                {
+                  "SONHIEMVU": "NVDV07",
+                  "NOIDUNG": "Về việc tổ chức các lớp tập huấn, hướng dẫn sử dụng phần mềm “Hệ thống thông tin báo cáo tổng hợp ngành tài nguyên và môi trường” và phần mềm “Hệ thống tương tác trong chỉ đạo điều hành giữa Bộ với các Sở Tài nguyên và Môi trường địa phương”",
+                  "DVTHUCHIEN": "Văn phòng Bộ",
+                  "HANXULY": "13/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đã xử lý",
+                  "TINHCHAT": "Bình thường"
+                },
+                {
+                  "SONHIEMVU": "NVDV15",
+                  "NOIDUNG": "Về việc phê duyệt Kế hoạch đấu giá quyền khai thác khoáng sản",
+                  "DVTHUCHIEN": "Viện Khoa học Địa chất và Khoáng sản",
+                  "HANXULY": "20/06/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đang xử lý",
+                  "TINHCHAT": "Gấp"
+                },
+                {
+                  "SONHIEMVU": "NVDV20",
+                  "NOIDUNG": "Về việc xây dựng kiểm điểm chỉ đạo, điều hành và xây dựng báo cáo tổng kết năm 2020",
+                  "DVTHUCHIEN": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                  "HANXULY": "22/05/2021",
+                  "LOAINHIEMVU": "Nhiệm vụ Bộ",
+                  "TRANGTHAIXL": "Trong hạn",
+                  "TRANGTHAI": "Đang xử lý",
+                  "TINHCHAT": "Bình thường"
+                }
+            ]
+          }
+         }
+      }
+    ],
+    "icon": "",
+    "dataApi": []
+  },
+  {
+    "title": "Đơn vị thực hiện",
+    "key": "DONVITHUCHIEN",
+    "count": 0,
+    "childs": [
+      {
+        "title": "Đơn vị hành chính",
+        "key": "DVTINHUYA",
+        "count": 50,
+        "childs": [
+          {
+            "title": "Vụ Địa chất",
+            "key": "DVTINHUY1",
+            "count": 14,
+            "childs": [],
+            "icon": "LayersIcon",
+            "dataApi": {
+              "nhiemvu":
+              {
+                "data_nv": [
+                  {
+                      "value": 10,
+                      "text": "Chưa thực hiện",
+                      "key":"CHUATHUCHIEN"
+                  },
+                  {
+                      "value": 19,
+                      "text": "Đang thực hiện",
+                      "key":"DANGTHUCHIEN"
+                  },
+                  {
+                      "value": 21,
+                      "text": "Đã hoàn thành",
+                      "key":"DAHOANTHANH"
+                  }
+              ],
+              "status": [
+                  {
+                      "value": 18,
+                      "name": "Quá hạn",
+                      "key":"QUAHAN"
+                  },
+                  {
+                      "value": 5,
+                      "name": "Đến hạn",
+                      "key":"DENHAN"
+                  },
+                  {
+                      "value": 17,
+                      "name": "Trong hạn",
+                      "key":"TRONGHAN"
+                  }
+              ],
+              "max_process": 50
+            },
+              "chartData": {
+              },
+              "thongke": [
+                {
+                    "name": "Văn phòng Bộ",
+                    "value": 4,
+                    "max": 8
+                },
+                {
+                    "name": "Vụ Kế hoạch - Tài chính",
+                    "value": 8,
+                    "max": 15
+                },
+                {
+                    "name": "Tổng cục Địa chất và Khoáng sản Việt Nam",
+                    "value": 5,
+                    "max": 10
+                },
+                {
+                    "name": "Văn phòng Hội đồng đánh giá trữ lượng khoáng sản quốc gia",
+                    "value": 15,
+                    "max": 31
+                },
+                {
+                    "name": "Cục CNTT và dữ liệu tài nguyên môi trường",
+                    "value": 13,
+                    "max": 15
+                },
+                {
+                    "name": "Viện Khoa học Địa chất và Khoáng sản",
+                    "value": 17,
+                    "max": 24
+                },
+                {
+                    "name": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                    "value": 8,
+                    "max": 18
+                },
+                {
+                    "name": "Viện Khoa học Địa chất và Khoáng sản",
+                    "value": 3,
+                    "max": 5
+                },
+                {
+                    "name": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                    "value": 7,
+                    "max": 9
+                },
+                {
+                    "name": "Văn phòng Hội đồng đánh giá trữ lượng khoáng sản quốc gia",
+                    "value": 8,
+                    "max": 18
+                },
+                {
+                    "name": "Công ty TNHH MTV Tài nguyên và Môi trường Việt Nam",
+                    "value": 3,
+                    "max": 11
+                },
+                {
+                    "name": "Công tyTNHH MTV Tài nguyên và Môi trường miền Nam",
+                    "value": 4,
+                    "max": 9
+                },
+                {
+                    "name": "Công ty TNHH MTV Nhà xuất bản Tài nguyên - Môi trường và Bản đồ Việt Nam",
+                    "value": 9,
+                    "max": 28
+                }
+            ],
+              "data_table":{
+                "fields": [
+                    {
+                      "key": "SONHIEMVU",
+                      "label": "Số nhiệm vụ",
+                      "sortable": false
+                    },
+                    {
+                      "key": "NOIDUNG",
+                      "label": "Nội dung",
+                      "sortable": false
+                    },
+                    {
+                      "key": "DVTHUCHIEN",
+                      "label": "Đơn vị thực hiện",
+                      "sortable": false
+                    },
+                    {
+                      "key": "HANXULY",
+                      "label": "Hạn xử lý",
+                      "sortable": false
+                    },
+                    {
+                      "key": "LOAINHIEMVU",
+                      "label": "Loại nhiệm vụ",
+                      "sortable": false
+                    },
+                    {
+                      "key": "TRANGTHAIXL",
+                      "label": "Trạng thái xử lý",
+                      "sortable": false
+                    },
+                    {
+                      "key": "TRANGTHAI",
+                      "label": "Trạng thái",
+                      "sortable": false
+                    },
+                    {
+                      "key": "TINHCHAT",
+                      "label": "Tính chất",
+                      "sortable": false
+                    }
+                  ],
+                  "items": [
+                    {
+                      "SONHIEMVU": "NVDV04",
+                      "NOIDUNG": "Về việc phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ tỉnh Lào Cai",
+                      "DVTHUCHIEN": "Tổng cục Địa chất và Khoáng sản Việt Nam",
+                      "HANXULY": "15/05/2032",
+                      "LOAINHIEMVU": "Nhiệm vụ đơn vị hành chính",
+                      "TRANGTHAIXL": "Trong hạn",
+                      "TRANGTHAI": "Chưa xử lý",
+                      "TINHCHAT": "Bình thường"
+                    },
+                    {
+                      "SONHIEMVU": "NVDV05",
+                      "NOIDUNG": "Về việc phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ tỉnh Hà Giang",
+                      "DVTHUCHIEN": "Văn phòng Bộ",
+                      "HANXULY": "16/5/2032",
+                      "LOAINHIEMVU": "Nhiệm vụ đơn vị hành chính",
+                      "TRANGTHAIXL": "Trong hạn",
+                      "TRANGTHAI": "Chưa xử lý",
+                      "TINHCHAT": "Quan trọng"
+                    },
+                    {
+                      "SONHIEMVU": "NVDV07",
+                      "NOIDUNG": "Về việc tổ chức các lớp tập huấn, hướng dẫn sử dụng phần mềm “Hệ thống thông tin báo cáo tổng hợp ngành tài nguyên và môi trường” và phần mềm “Hệ thống tương tác trong chỉ đạo điều hành giữa Bộ với các Sở Tài nguyên và Môi trường địa phương”",
+                      "DVTHUCHIEN": "Văn phòng Bộ",
+                      "HANXULY": "13/06/2021",
+                      "LOAINHIEMVU": "Nhiệm vụ đơn vị hành chính",
+                      "TRANGTHAIXL": "Trong hạn",
+                      "TRANGTHAI": "Đã xử lý",
+                      "TINHCHAT": "Gấp"
+                    },
+                    {
+                      "SONHIEMVU": "NVDV15",
+                      "NOIDUNG": "Về việc phê duyệt Kế hoạch đấu giá quyền khai thác khoáng sản",
+                      "DVTHUCHIEN": "Viện Khoa học Địa chất và Khoáng sản",
+                      "HANXULY": "10/06/2021",
+                      "LOAINHIEMVU": "Nhiệm vụ đơn vị hành chính",
+                      "TRANGTHAIXL": "Trong hạn",
+                      "TRANGTHAI": "Đã xử lý",
+                      "TINHCHAT": "Bình thường"
+                    },
+                    {
+                      "SONHIEMVU": "NVDV20",
+                      "NOIDUNG": "Về việc xây dựng kiểm điểm chỉ đạo, điều hành và xây dựng báo cáo tổng kết năm 2020",
+                      "DVTHUCHIEN": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                      "HANXULY": "22/05/2021",
+                      "LOAINHIEMVU": "Nhiệm vụ đơn vị hành chính",
+                      "TRANGTHAIXL": "Trong hạn",
+                      "TRANGTHAI": "Đang xử lý",
+                      "TINHCHAT": "Gấp"
+                    }
+                ]
+              }
+             }
+          },
+          {
+            "title": "Vụ Khoáng sản",
+            "key": "DVTINHUY2",
+            "count": 14,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Vụ Chính sách và Pháp chế",
+            "key": "DVTINHUY3",
+            "count": 10,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Vụ Khoa học, Công nghệ và Hợp tác quốc tế",
+            "key": "DVTINHUY4",
+            "count": 24,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Vụ Kế hoạch - Tài chính",
+            "key": "DVTINHUY5",
+            "count": 44,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Vụ Tổ chức cán bộ",
+            "key": "DVTINHUY6",
+            "count": 20,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Văn phòng Tổng cục",
+            "key": "DVTINHUY7",
+            "count": 24,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Cục Kinh tế Địa chất và Khoáng sản",
+            "key": "DVTINHUY8",
+            "count": 10,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Cục Kiểm soát hoạt động khoáng sản miền Bắc",
+            "key": "DVTINHUY9",
+            "count": 11,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Cục Kiểm soát hoạt động khoáng sản miền Trung",
+            "key": "DVTINHUY10",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Cục Kiểm soát hoạt động khoáng sản miền Nam",
+            "key": "DVUYBANNHANDAN",
+            "count": 46,
+            "childs": [],
+            "icon": "LayersIcon"
+          }
+        ],
+        "icon": "LayersIcon"
+      },
+      {
+        "title": "Đơn vị trực thuộc",
+        "key": "DVTINHUYB",
+        "count": 32,
+        "childs": [
+          {
+            "title": "Liên đoàn Bản đồ Địa chất miền Bắc",
+            "key": "DVTINHUY11",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon",
+            "dataApi": {
+              "nhiemvu":
+              {
+                "data_nv": [
+                  {
+                      "value": 15,
+                      "text": "Chưa thực hiện",
+                      "key":"CHUATHUCHIEN"
+                  },
+                  {
+                      "value": 15,
+                      "text": "Đang thực hiện",
+                      "key":"DANGTHUCHIEN"
+                  },
+                  {
+                      "value": 20,
+                      "text": "Đã hoàn thành",
+                      "key":"DAHOANTHANH"
+                  }
+              ],
+              "status": [
+                  {
+                      "value": 15,
+                      "name": "Quá hạn",
+                      "key":"QUAHAN"
+                  },
+                  {
+                      "value": 25,
+                      "name": "Đến hạn",
+                      "key":"DENHAN"
+                  },
+                  {
+                      "value": 10,
+                      "name": "Trong hạn",
+                      "key":"TRONGHAN"
+                  }
+              ],
+              "max_process": 50
+            },
+              "chartData": {
+              },
+              "thongke": [
+                {
+                    "name": "Văn phòng Bộ",
+                    "value": 6,
+                    "max": 8
+                },
+                {
+                    "name": "Vụ Kế hoạch - Tài chính",
+                    "value": 10,
+                    "max": 15
+                },
+                {
+                    "name": "Tổng cục Địa chất và Khoáng sản Việt Nam",
+                    "value": 5,
+                    "max": 10
+                },
+                {
+                    "name": "Văn phòng Hội đồng đánh giá trữ lượng khoáng sản quốc gia",
+                    "value": 15,
+                    "max": 31
+                },
+                {
+                    "name": "Cục CNTT và dữ liệu tài nguyên môi trường",
+                    "value": 13,
+                    "max": 15
+                },
+                {
+                    "name": "Viện Khoa học Địa chất và Khoáng sản",
+                    "value": 17,
+                    "max": 24
+                },
+                {
+                    "name": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                    "value": 8,
+                    "max": 18
+                },
+                {
+                    "name": "Viện Khoa học Địa chất và Khoáng sản",
+                    "value": 3,
+                    "max": 5
+                },
+                {
+                    "name": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                    "value": 7,
+                    "max": 9
+                },
+                {
+                    "name": "Văn phòng Hội đồng đánh giá trữ lượng khoáng sản quốc gia",
+                    "value": 8,
+                    "max": 18
+                },
+                {
+                    "name": "Công ty TNHH MTV Tài nguyên và Môi trường Việt Nam",
+                    "value": 3,
+                    "max": 11
+                },
+                {
+                    "name": "Công tyTNHH MTV Tài nguyên và Môi trường miền Nam",
+                    "value": 4,
+                    "max": 9
+                },
+                {
+                    "name": "Công ty TNHH MTV Nhà xuất bản Tài nguyên - Môi trường và Bản đồ Việt Nam",
+                    "value": 9,
+                    "max": 28
+                }
+            ],
+              "data_table":{
+                "fields": [
+                    {
+                      "key": "SONHIEMVU",
+                      "label": "Số nhiệm vụ",
+                      "sortable": false
+                    },
+                    {
+                      "key": "NOIDUNG",
+                      "label": "Nội dung",
+                      "sortable": false
+                    },
+                    {
+                      "key": "DVTHUCHIEN",
+                      "label": "Đơn vị thực hiện",
+                      "sortable": false
+                    },
+                    {
+                      "key": "HANXULY",
+                      "label": "Hạn xử lý",
+                      "sortable": false
+                    },
+                    {
+                      "key": "LOAINHIEMVU",
+                      "label": "Loại nhiệm vụ",
+                      "sortable": false
+                    },
+                    {
+                      "key": "TRANGTHAIXL",
+                      "label": "Trạng thái xử lý",
+                      "sortable": false
+                    },
+                    {
+                      "key": "TRANGTHAI",
+                      "label": "Trạng thái",
+                      "sortable": false
+                    },
+                    {
+                      "key": "TINHCHAT",
+                      "label": "Tính chất",
+                      "sortable": false
+                    }
+                  ],
+                  "items": [
+                    {
+                      "SONHIEMVU": "NVDV07",
+                      "NOIDUNG": "Về việc tổ chức các lớp tập huấn, hướng dẫn sử dụng phần mềm “Hệ thống thông tin báo cáo tổng hợp ngành tài nguyên và môi trường” và phần mềm “Hệ thống tương tác trong chỉ đạo điều hành giữa Bộ với các Sở Tài nguyên và Môi trường địa phương”",
+                      "DVTHUCHIEN": "Văn phòng Bộ",
+                      "HANXULY": "13/06/2021",
+                      "LOAINHIEMVU": "Nhiệm vụ đơn vị trực thuộc",
+                      "TRANGTHAIXL": "Trong hạn",
+                      "TRANGTHAI": "Đã xử lý",
+                      "TINHCHAT": "Gấp"
+                    },
+                    {
+                      "SONHIEMVU": "NVDV15",
+                      "NOIDUNG": "Về việc phê duyệt Kế hoạch đấu giá quyền khai thác khoáng sản",
+                      "DVTHUCHIEN": "Viện Khoa học Địa chất và Khoáng sản",
+                      "HANXULY": "10/06/2021",
+                      "LOAINHIEMVU": "Nhiệm vụ đơn vị trực thuộc",
+                      "TRANGTHAIXL": "Trong hạn",
+                      "TRANGTHAI": "Đã xử lý",
+                      "TINHCHAT": "Bình thường"
+                    },
+                    {
+                      "SONHIEMVU": "NVDV20",
+                      "NOIDUNG": "Về việc xây dựng kiểm điểm chỉ đạo, điều hành và xây dựng báo cáo tổng kết năm 2020",
+                      "DVTHUCHIEN": "Trung tâm Điều dưỡng và Phục hồi chức năng",
+                      "HANXULY": "22/05/2021",
+                      "LOAINHIEMVU": "Nhiệm vụ đơn vị trực thuộc",
+                      "TRANGTHAIXL": "Trong hạn",
+                      "TRANGTHAI": "Đang xử lý",
+                      "TINHCHAT": "Gấp"
+                    }
+                ]
+              }
+             }
+          },
+          {
+            "title": "Liên đoàn Bản đồ Địa chất miền Nam",
+            "key": "DVTINHUY12",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Liên đoàn Địa chất Đông Bắc",
+            "key": "DVTINHUY13",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Liên đoàn Địa chất Tây Bắc",
+            "key": "DVTINHUY14",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Liên đoàn Địa chất Bắc Trung Bộ",
+            "key": "DVTINHUY15",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Liên đoàn Địa chất Trung Trung Bộ",
+            "key": "DVTINHUY16",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Liên đoàn Địa chất Xạ - Hiếm",
+            "key": "DVTINHUY17",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Liên đoàn Vật lý Địa chất",
+            "key": "DVTINHUY18",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Liên đoàn INTERGEO",
+            "key": "DVTINHUY19",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Liên đoàn Địa chất và Khoáng sản biển",
+            "key": "DVTINHUY20",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Trung tâm Kiểm định địa chất",
+            "key": "DVTINHUY21",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Trung tâm Phân tích thí nghiệm địa chất",
+            "key": "DVTINHUY22",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Trung tâm Thông tin, Lưu trữ và Tạp chí địa chất",
+            "key": "DVTINHUY23",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          },
+          {
+            "title": "Bảo tàng Địa chất",
+            "key": "DVTINHUY24",
+            "count": 32,
+            "childs": [],
+            "icon": "LayersIcon"
+          }
+        ],
+        "icon": "LayersIcon"
+      }
+    ],
+    "icon": "",
+    "dataApi": {}
+  }
+]

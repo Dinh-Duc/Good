@@ -1,0 +1,435 @@
+[
+  {
+      "id": 1,
+      "name": "Tổng quan",
+      "icon" : "GridIcon",
+      "childs": [],
+      "boxTable" : {
+
+      },
+      "url" : "https://app.powerbi.com/view?r=eyJrIjoiYTE5MTBmMzgtOTQ3YS00OGEzLTg5YjktMDNmNjFlYjNmMTBjIiwidCI6IjY4ZTQxNzUxLTgwZDMtNDE4My1hZjdiLWE1YzQyMTJiZGZlNSIsImMiOjEwfQ%3D%3D"
+  },
+  {
+      "id": 3,
+      "name": "Cơ quan xử lý",
+      "icon" : "LayersIcon",
+      "childs" : [],
+      "boxTable" : {
+        "fields": [
+            {
+              "key": "maHoSo",
+              "label": "Mã Hồ Sơ",
+              "sortable": true
+            },
+            {
+              "key": "thuTuc",
+              "label": "Thủ Tục",
+              "sortable": false
+            },
+            {
+              "key": "chuHoSo",
+              "label": "Chủ Hồ Sơ",
+              "sortable": true
+            },
+            {
+              "key": "coQuanXuLy",
+              "label": "Cơ Quan xử lý",
+              "sortable": true
+            },
+            {
+              "key": "ngayTiepNhan",
+              "label": "Ngày Tiếp Nhận",
+              "sortable": true
+            },
+            {
+              "key": "hanXuLy",
+              "label": "Hạn Xử Lý",
+              "sortable": true
+            },
+            {
+              "key": "tinhTrang",
+              "label": "Tình Trạng",
+              "sortable": true
+            }
+          ],
+          "items": [
+            {
+                "maHoSo": "1000006",
+                "thuTuc": "Thủ tục thông báo về việc giải thể cơ sở đào tạo tôn giáo theo quyết định của tổ chức tôn giáo",
+                "chuHoSo": "Trung tâm tôn giáo",
+                "coQuanXuLy": "Ban Tôn giáo Chính phủ",
+                "ngayTiepNhan": "05/05/2021",
+                "hanXuLy": "16/05/2021",
+                "trangThai": "Trong hạn",
+                "tinhTrang": "Đang xử lý"
+              },
+              {
+                "maHoSo": "1000022",
+                "thuTuc":
+                  "Thủ tục Phong tặng danh hiệu Chiến sĩ thi đua toàn quốc",
+                "chuHoSo": "Hoàng Hà Nga",
+                "coQuanXuLy": "Ban Thi đua - Khen thưởng Trung ương",
+                "ngayTiepNhan": "06/05/2021",
+                "hanXuLy": "16/05/2021",
+                "trangThai": "Trong hạn",
+                "tinhTrang": "Đang xử lý"
+              },
+              {
+                "maHoSo": "1000042",
+                "thuTuc": "Thủ tục tặng Cờ thi đua của Chính phủ về thành tích thực hiện nhiệm vụ chính trị",
+                "chuHoSo": "Trung tâm hỗ trợ doanh nghiệp",
+                "coQuanXuLy": "Ban Thi đua - Khen thưởng Trung ương",
+                "ngayTiepNhan": "07/05/2021",
+                "hanXuLy": "16/05/2021",
+                "trangThai": "Trong hạn",
+                "tinhTrang": "Đang xử lý"
+              },
+              {
+                "maHoSo": "1000054",
+                "thuTuc": "Thủ tục thông báo về việc thay đổi trụ sở của tổ chức tôn giáo, tổ chức tôn giáo trực thuộc có địa bàn hoạt động ở nhiều tỉnh",
+                "chuHoSo": "Trung tâm tôn giáo",
+                "coQuanXuLy": "Ban Tôn giáo Chính phủ",
+                "ngayTiepNhan": "09/05/2021",
+                "hanXuLy": "10/05/2021",
+                "trangThai": "Quá hạn",
+                "tinhTrang": "Quá hạn xử lý"
+              },
+              {
+                "maHoSo": "1000092",
+                "thuTuc": "Thủ tục đề nghị cho người nước ngoài học tại cơ sở đào tạo tôn giáo ở Việt Nam",
+                "chuHoSo": "Trung tâm hỗ trợ tôn giáo nước ngoài",
+                "coQuanXuLy": "Ban Tôn giáo Chính phủ",
+                "ngayTiepNhan": "12/05/2021",
+                "hanXuLy": "11/05/2021",
+                "trangThai": "Quá hạn",
+                "tinhTrang": "Quá hạn xử lý"
+              }
+            ]
+    }
+  },
+  {
+      "id": 4,
+      "name": "Tình trạng xử lý",
+      "icon" : "LayersIcon",
+      "childs" : [
+          {
+              "key": "1",
+              "name": "Chờ xử lý",
+              "count": 6,
+              "boxTable" : {
+                  "fields": [
+                      {
+                        "key": "maHoSo",
+                        "label": "Mã Hồ Sơ",
+                        "sortable": true
+                      },
+                      {
+                        "key": "thuTuc",
+                        "label": "Thủ Tục",
+                        "sortable": false
+                      },
+                      {
+                        "key": "chuHoSo",
+                        "label": "Chủ Hồ Sơ",
+                        "sortable": true
+                      },
+                      {
+                        "key": "coQuanXuLy",
+                        "label": "Cơ Quan xử lý",
+                        "sortable": true
+                      },
+                      {
+                        "key": "ngayTiepNhan",
+                        "label": "Ngày Tiếp Nhận",
+                        "sortable": true
+                      },
+                      {
+                        "key": "hanXuLy",
+                        "label": "Hạn Xử Lý",
+                        "sortable": true
+                      },
+                      {
+                        "key": "tinhTrang",
+                        "label": "Tình Trạng",
+                        "sortable": true
+                      }
+                    ],
+                    "items": [
+                      {
+                        "maHoSo": "1000006",
+                        "thuTuc": "Thủ tục thông báo về việc giải thể cơ sở đào tạo tôn giáo theo quyết định của tổ chức tôn giáoaaaa",
+                        "chuHoSo": "Trung tâm tôn giáo",
+                        "coQuanXuLy": "Ban Tôn giáo Chính phủ",
+                        "ngayTiepNhan": "05/06/2021",
+                        "hanXuLy": "16/06/2021",
+                        "trangThai": "Trong hạn",
+                        "tinhTrang": "Chờ xử lý"
+                      },
+                      {
+                        "maHoSo": "1000022",
+                        "thuTuc":
+                          "Thủ tục Phong tặng danh hiệu Chiến sĩ thi đua toàn quốc",
+                        "chuHoSo": "Hoàng Hà Nga",
+                        "coQuanXuLy": "Ban Thi đua - Khen thưởng Trung ương",
+                        "ngayTiepNhan": "06/06/2021",
+                        "hanXuLy": "16/06/2021",
+                        "trangThai": "Trong hạn",
+                        "tinhTrang": "Chờ xử lý"
+                      },
+                      {
+                        "maHoSo": "1000042",
+                        "thuTuc": "Thủ tục tặng Cờ thi đua của Chính phủ về thành tích thực hiện nhiệm vụ chính trị",
+                        "chuHoSo": "Trung tâm hỗ trợ doanh nghiệp",
+                        "coQuanXuLy": "Ban Thi đua - Khen thưởng Trung ương",
+                        "ngayTiepNhan": "07/06/2021",
+                        "hanXuLy": "16/06/2021",
+                        "trangThai": "Trong hạn",
+                        "tinhTrang": "Chờ xử lý"
+                      },
+                      {
+                        "maHoSo": "1000054",
+                        "thuTuc": "Thủ tục thông báo về việc thay đổi trụ sở của tổ chức tôn giáo, tổ chức tôn giáo trực thuộc có địa bàn hoạt động ở nhiều tỉnh",
+                        "chuHoSo": "Trung tâm tôn giáo",
+                        "coQuanXuLy": "Ban Tôn giáo Chính phủ",
+                        "ngayTiepNhan": "09/06/2021",
+                        "hanXuLy": "10/06/2021",
+                        "trangThai": "Quá hạn",
+                        "tinhTrang": "Chờ xử lý"
+                      },
+                      {
+                        "maHoSo": "1000092",
+                        "thuTuc": "Thủ tục đề nghị cho người nước ngoài học tại cơ sở đào tạo tôn giáo ở Việt Nam",
+                        "chuHoSo": "Trung tâm hỗ trợ tôn giáo nước ngoài",
+                        "coQuanXuLy": "Ban Tôn giáo Chính phủ",
+                        "ngayTiepNhan": "12/06/2021",
+                        "hanXuLy": "11/06/2021",
+                        "trangThai": "Quá hạn",
+                        "tinhTrang": "Chờ xử lý"
+                      }
+                  ]
+              }
+          },
+          {
+              "key": "2",
+              "name": "Đang xử lý",
+              "count": 13,
+              "boxTable" : {
+                  "fields": [
+                      {
+                        "key": "maHoSo",
+                        "label": "Mã Hồ Sơ",
+                        "sortable": true
+                      },
+                      {
+                        "key": "thuTuc",
+                        "label": "Thủ Tục",
+                        "sortable": false
+                      },
+                      {
+                        "key": "chuHoSo",
+                        "label": "Chủ Hồ Sơ",
+                        "sortable": true
+                      },
+                      {
+                        "key": "coQuanXuLy",
+                        "label": "Cơ Quan xử lý",
+                        "sortable": true
+                      },
+                      {
+                        "key": "ngayTiepNhan",
+                        "label": "Ngày Tiếp Nhận",
+                        "sortable": true
+                      },
+                      {
+                        "key": "hanXuLy",
+                        "label": "Hạn Xử Lý",
+                        "sortable": true
+                      },
+                      {
+                        "key": "tinhTrang",
+                        "label": "Tình Trạng",
+                        "sortable": true
+                      }
+                    ],
+                    "items": [
+                      {
+                        "maHoSo": "1000042",
+                        "thuTuc": "Thủ tục tặng Cờ thi đua của Chính phủ về thành tích thực hiện nhiệm vụ chính trị",
+                        "chuHoSo": "Trung tâm hỗ trợ doanh nghiệp",
+                        "coQuanXuLy": "Ban Thi đua - Khen thưởng Trung ương",
+                        "ngayTiepNhan": "07/06/2021",
+                        "hanXuLy": "16/06/2021",
+                        "trangThai": "Trong hạn",
+                        "tinhTrang": "Đang xử lý"
+                      },
+                      {
+                        "maHoSo": "1000054",
+                        "thuTuc": "Thủ tục thông báo về việc thay đổi trụ sở của tổ chức tôn giáo, tổ chức tôn giáo trực thuộc có địa bàn hoạt động ở nhiều tỉnh",
+                        "chuHoSo": "Trung tâm tôn giáo",
+                        "coQuanXuLy": "Ban Tôn giáo Chính phủ",
+                        "ngayTiepNhan": "09/06/2021",
+                        "hanXuLy": "10/06/2021",
+                        "trangThai": "Quá hạn",
+                        "tinhTrang": "Đang xử lý"
+                      }
+                  ]
+              }
+          },
+          {
+              "key": "3",
+              "name": "Đã xử lý",
+              "count": 10,
+              "boxTable" : {
+                  "fields": [
+                      {
+                        "key": "maHoSo",
+                        "label": "Mã Hồ Sơ",
+                        "sortable": true
+                      },
+                      {
+                        "key": "thuTuc",
+                        "label": "Thủ Tục",
+                        "sortable": false
+                      },
+                      {
+                        "key": "chuHoSo",
+                        "label": "Chủ Hồ Sơ",
+                        "sortable": true
+                      },
+                      {
+                        "key": "coQuanXuLy",
+                        "label": "Cơ Quan xử lý",
+                        "sortable": true
+                      },
+                      {
+                        "key": "ngayTiepNhan",
+                        "label": "Ngày Tiếp Nhận",
+                        "sortable": true
+                      },
+                      {
+                        "key": "hanXuLy",
+                        "label": "Hạn Xử Lý",
+                        "sortable": true
+                      },
+                      {
+                        "key": "tinhTrang",
+                        "label": "Tình Trạng",
+                        "sortable": true
+                      }
+                    ],
+                    "items": [
+                      {
+                        "maHoSo": "1000006",
+                        "thuTuc": "Thủ tục thông báo về việc giải thể cơ sở đào tạo tôn giáo theo quyết định của tổ chức tôn giáo",
+                        "chuHoSo": "Trung tâm tôn giáo",
+                        "coQuanXuLy": "Ban Tôn giáo Chính phủ",
+                        "ngayTiepNhan": "05/05/2021",
+                        "hanXuLy": "12/07/2021",
+                        "trangThai": "Trong hạn",
+                        "tinhTrang": "Đã xử lý"
+                      },
+                      {
+                        "maHoSo": "1000022",
+                        "thuTuc":
+                          "Thủ tục Phong tặng danh hiệu Chiến sĩ thi đua toàn quốc",
+                        "chuHoSo": "Hoàng Hà Nga",
+                        "coQuanXuLy": "Ban Thi đua - Khen thưởng Trung ương",
+                        "ngayTiepNhan": "06/05/2021",
+                        "hanXuLy": "18/07/2021",
+                        "trangThai": "Trong hạn",
+                        "tinhTrang": "Đã xử lý"
+                      },
+                      {
+                        "maHoSo": "1000042",
+                        "thuTuc": "Thủ tục tặng Cờ thi đua của Chính phủ về thành tích thực hiện nhiệm vụ chính trị",
+                        "chuHoSo": "Trung tâm hỗ trợ doanh nghiệp",
+                        "coQuanXuLy": "Ban Thi đua - Khen thưởng Trung ương",
+                        "ngayTiepNhan": "07/05/2021",
+                        "hanXuLy": "16/06/2021",
+                        "trangThai": "Trong hạn",
+                        "tinhTrang": "Đã xử lý"
+                      }
+                  ]
+              }
+          },
+          {
+              "key": "4",
+              "name": "Quá hạn xử lý",
+              "count": 10,
+              "boxTable" : {
+                  "fields": [
+                      {
+                        "key": "maHoSo",
+                        "label": "Mã Hồ Sơ",
+                        "sortable": true
+                      },
+                      {
+                        "key": "thuTuc",
+                        "label": "Thủ Tục",
+                        "sortable": false
+                      },
+                      {
+                        "key": "chuHoSo",
+                        "label": "Chủ Hồ Sơ",
+                        "sortable": true
+                      },
+                      {
+                        "key": "coQuanXuLy",
+                        "label": "Cơ Quan xử lý",
+                        "sortable": true
+                      },
+                      {
+                        "key": "ngayTiepNhan",
+                        "label": "Ngày Tiếp Nhận",
+                        "sortable": true
+                      },
+                      {
+                        "key": "hanXuLy",
+                        "label": "Hạn Xử Lý",
+                        "sortable": true
+                      },
+                      {
+                        "key": "tinhTrang",
+                        "label": "Tình Trạng",
+                        "sortable": true
+                      }
+                    ],
+                    "items": [
+                      {
+                        "maHoSo": "1000006",
+                        "thuTuc": "Thủ tục thông báo về việc giải thể cơ sở đào tạo tôn giáo theo quyết định của tổ chức tôn giáo",
+                        "chuHoSo": "Trung tâm tôn giáo",
+                        "coQuanXuLy": "Ban Tôn giáo Chính phủ",
+                        "ngayTiepNhan": "05/05/2021",
+                        "hanXuLy": "16/05/2021",
+                        "trangThai": "Trong hạn",
+                        "tinhTrang": "Quá hạn xử lý"
+                      },
+                      {
+                        "maHoSo": "1000022",
+                        "thuTuc":
+                          "Thủ tục Phong tặng danh hiệu Chiến sĩ thi đua toàn quốc",
+                        "chuHoSo": "Hoàng Hà Nga",
+                        "coQuanXuLy": "Ban Thi đua - Khen thưởng Trung ương",
+                        "ngayTiepNhan": "06/05/2021",
+                        "hanXuLy": "16/05/2021",
+                        "trangThai": "Trong hạn",
+                        "tinhTrang": "Quá hạn xử lý"
+                      },
+                      {
+                        "maHoSo": "1000042",
+                        "thuTuc": "Thủ tục tặng Cờ thi đua của Chính phủ về thành tích thực hiện nhiệm vụ chính trị",
+                        "chuHoSo": "Trung tâm hỗ trợ doanh nghiệp",
+                        "coQuanXuLy": "Ban Thi đua - Khen thưởng Trung ương",
+                        "ngayTiepNhan": "07/05/2021",
+                        "hanXuLy": "16/05/2021",
+                        "trangThai": "Trong hạn",
+                        "tinhTrang": "Quá hạn xử lý"
+                      }
+                  ]
+              }
+          }
+      ]
+  }
+
+]

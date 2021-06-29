@@ -1,0 +1,46 @@
+.mapboxgl-popup{
+    z-index: 999999;
+    *{
+      background: #00e400 !important;
+      z-index: 999999;
+    }
+    .content--AQ{
+      font-size: 14px !important;
+    }
+    .content--AQ--value{
+      font-size: 14px !important;
+    }
+    .content--aqi--nhietdo{
+      width: 100%;
+      padding: 5px 20px !important;
+      .name-text{
+        font-size: 16px !important;
+        font-weight: bold !important;
+      }
+      .status-aqi{
+        padding-left: 20px !important;
+      }
+    }
+    .box-item-aqi-nd{
+      text-align: center;
+    }
+    .name-text{
+        font-size: 18px !important;
+        font-weight: bold !important;
+        font-family: 'Mulish';
+    }
+    .svg-icon-aqi{
+      width: 20px !important;
+      height: 20px !important;
+      position: relative;
+      top: -2px;
+    }
+    .temp-aqi-svg{
+      width: 28px !important;
+      height: 28px !important;
+      position: relative;
+      top: -2px;
+      padding-left: 10px !important;
+    }
+  
+  }

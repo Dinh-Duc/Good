@@ -1,0 +1,486 @@
+{
+    "VBDEN_tongQuan": [
+      {
+        "id": "1",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "1200/TB-BYT",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "thông báo danh sách các trường hợp hoàn thành thời gian cách ly y tế tập trung tại Hải Dương",
+        "coQuanBanHanh": "Bộ Y tế",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "2",
+        "ngayNhan": "18/04/2021",
+        "soKyHieu": "503/TTg-CN",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "bảo đảm nguồn cung vật liệu xây dựng phục vụ thi công Dự án đầu tư xây dựng một số đoạn đường bộ cao tốc trên tuyến Bắc - Nam phía Đông giai đoạn 2017-2020",
+        "coQuanBanHanh": "Văn phòng Chính phủ",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "3",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "151/TTCNTT-HCTH",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Thực hiện kết luận rà soát bổ sung kinh phí năm 2021 của STNMT",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "2357/VPĐK",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Rà soát giấy chứng nhận bị mất",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "5",
+        "ngayNhan": "18/04/2021",
+        "soKyHieu": "477/BQL-LN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Đăng ký nhu cầu khai thác sử dụng dữ liệu viễn thám",
+        "coQuanBanHanh": "Bộ Nông nghiệp và Phát triển nông thôn",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+    "VBDEN_chuaXuLyQuaHan": [
+      {
+        "id": "3",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "298/TTDVNN-HCTH",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về việc bổ sung kinh phí thực hiện Đề án Tây Nam năm 2021 của Trung tâm Dịch vụ Nông nghiệp tỉnh Đồng Nai.",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "72/BC-BXD",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Về tình hình thực hiện xây dựng Khu dân cư, tái định cư Lộc An- Bình Sơn và Phân khu III Khu dân cư, tái định cư Bình Sơn, thuộc dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không Quốc tế Long Thành",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "5",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "303/TTDVNN-TVNLN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về tình hình thực hiện xây dựng Khu dân cư, tái định cư Lộc An- Bình Sơn và Phân khu III Khu dân cư, tái định cư Bình Sơn, thuộc dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không Quốc tế Long Thành",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+    "VBDEN_chuaXuLyTrongHan": [
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "2357/VPĐK",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Rà soát giấy chứng nhận bị mất",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "5",
+        "ngayNhan": "18/04/2021",
+        "soKyHieu": "477/BQL-LN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Đăng ký nhu cầu khai thác sử dụng dữ liệu viễn thám",
+        "coQuanBanHanh": "Bộ Nông nghiệp và Phát triển nông thôn",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+    "VBDEN_daXuLyQuaHan": [
+      {
+        "id": "2",
+        "ngayNhan": "18/04/2021",
+        "soKyHieu": "503/TTg-CN",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "bảo đảm nguồn cung vật liệu xây dựng phục vụ thi công Dự án đầu tư xây dựng một số đoạn đường bộ cao tốc trên tuyến Bắc - Nam phía Đông giai đoạn 2017-2020",
+        "coQuanBanHanh": "Văn phòng Chính phủ",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "3",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "151/TTCNTT-HCTH",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Thực hiện kết luận rà soát bổ sung kinh phí năm 2021 của STNMT",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "2357/VPĐK",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Rà soát giấy chứng nhận bị mất",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+    "VBDEN_daXuLyTrongHan": [
+      {
+        "id": "1",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "1200/TB-BYT",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "thông báo danh sách các trường hợp hoàn thành thời gian cách ly y tế tập trung tại Hải Dương",
+        "coQuanBanHanh": "Bộ Y tế",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "2",
+        "ngayNhan": "18/04/2021",
+        "soKyHieu": "503/TTg-CN",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "bảo đảm nguồn cung vật liệu xây dựng phục vụ thi công Dự án đầu tư xây dựng một số đoạn đường bộ cao tốc trên tuyến Bắc - Nam phía Đông giai đoạn 2017-2020",
+        "coQuanBanHanh": "Văn phòng Chính phủ",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "3",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "151/TTCNTT-HCTH",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Thực hiện kết luận rà soát bổ sung kinh phí năm 2021 của STNMT",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "2357/VPĐK",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Rà soát giấy chứng nhận bị mất",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "5",
+        "ngayNhan": "18/04/2021",
+        "soKyHieu": "477/BQL-LN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Đăng ký nhu cầu khai thác sử dụng dữ liệu viễn thám",
+        "coQuanBanHanh": "Bộ Nông nghiệp và Phát triển nông thôn",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+    "VBDEN_dangXuLyQuaHan": [
+      {
+        "id": "3",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "298/TTDVNN-HCTH",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về việc bổ sung kinh phí thực hiện Đề án Tây Nam năm 2021 của Trung tâm Dịch vụ Nông nghiệp tỉnh Đồng Nai.",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "72/BC-BXD",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Về tình hình thực hiện xây dựng Khu dân cư, tái định cư Lộc An- Bình Sơn và Phân khu III Khu dân cư, tái định cư Bình Sơn, thuộc dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không Quốc tế Long Thành",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "5",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "303/TTDVNN-TVNLN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về tình hình thực hiện xây dựng Khu dân cư, tái định cư Lộc An- Bình Sơn và Phân khu III Khu dân cư, tái định cư Bình Sơn, thuộc dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không Quốc tế Long Thành",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+    "VBDEN_dangXuLyTrongHan": [
+      {
+        "id": "2",
+        "ngayNhan": "18/04/2021",
+        "soKyHieu": "503/TTg-CN",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "bảo đảm nguồn cung vật liệu xây dựng phục vụ thi công Dự án đầu tư xây dựng một số đoạn đường bộ cao tốc trên tuyến Bắc - Nam phía Đông giai đoạn 2017-2020",
+        "coQuanBanHanh": "Văn phòng Chính phủ",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "3",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "151/TTCNTT-HCTH",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Thực hiện kết luận rà soát bổ sung kinh phí năm 2021 của STNMT",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "2357/VPĐK",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Rà soát giấy chứng nhận bị mất",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+    "VBDI_TONG_QUAN": [
+      {
+        "id": "1",
+        "ngayNhan": "21/03/2021",
+        "soKyHieu": "57/BC-UBBC",
+        "ngayBanHanh": "08/05/2021",
+        "trichYeu": "Báo cáo nhanh tiến độ (Diễn tập lần 1) Công tác bầu cử đại biểu Quốc hội khóa XV và đại biểu HĐND các cấp nhiệm kỳ 2021-2026 (ngày 18/4/2021)",
+        "coQuanBanHanh": "UBND Thành Phố Bắc Giang",
+        "trangThai": "Chờ vào sổ"
+      },
+      {
+        "id": "2",
+        "ngayNhan": "18/02/2021",
+        "soKyHieu": "57/BC-UBBC",
+        "ngayBanHanh": "08/05/2021",
+        "trichYeu": "Báo cáo nhanh tiến độ (Diễn tập lần 1) Công tác bầu cử đại biểu Quốc hội khóa XV và đại biểu HĐND các cấp nhiệm kỳ 2021-2026 (ngày 18/4/2021)",
+        "coQuanBanHanh": "UBND Thành Phố Bắc Giang",
+        "trangThai": "Chờ vào sổ"
+      },
+      {
+        "id": "3",
+        "ngayNhan": "19/03/2021",
+        "soKyHieu": "57/BC-UBBC",
+        "ngayBanHanh": "08/05/2021",
+        "trichYeu": "Báo cáo nhanh tiến độ (Diễn tập lần 1) Công tác bầu cử đại biểu Quốc hội khóa XV và đại biểu HĐND các cấp nhiệm kỳ 2021-2026 (ngày 18/4/2021)",
+        "coQuanBanHanh": "UBND Thành Phố Bắc Giang",
+        "trangThai": "Chờ vào sổ"
+      }
+    ],
+    "VBDI_CHO_TRINH_KY": [
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "2357/VPĐK",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Rà soát giấy chứng nhận bị mất",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "5",
+        "ngayNhan": "18/04/2021",
+        "soKyHieu": "477/BQL-LN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Đăng ký nhu cầu khai thác sử dụng dữ liệu viễn thám",
+        "coQuanBanHanh": "Bộ Nông nghiệp và Phát triển nông thôn",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+    "VBDI_CHO_XU_LY": [
+      {
+        "id": "1",
+        "ngayNhan": "27/03/2021",
+        "soKyHieu": "57/BC-UBBC",
+        "ngayBanHanh": "08/05/2021",
+        "trichYeu": "Báo cáo nhanh tiến độ (Diễn tập lần 1) Công tác bầu cử đại biểu Quốc hội khóa XV và đại biểu HĐND các cấp nhiệm kỳ 2021-2026 (ngày 18/4/2021)",
+        "coQuanBanHanh": "UBND Thành Phố Bắc Giang",
+        "trangThai": "Chờ trình ký"
+      }
+    ],
+    "VBDI_DA_XU_LY": [
+      {
+        "id": "3",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "298/TTDVNN-HCTH",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về việc bổ sung kinh phí thực hiện Đề án Tây Nam năm 2021 của Trung tâm Dịch vụ Nông nghiệp tỉnh Đồng Nai.",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "72/BC-BXD",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Về tình hình thực hiện xây dựng Khu dân cư, tái định cư Lộc An- Bình Sơn và Phân khu III Khu dân cư, tái định cư Bình Sơn, thuộc dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không Quốc tế Long Thành",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "5",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "303/TTDVNN-TVNLN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về tình hình thực hiện xây dựng Khu dân cư, tái định cư Lộc An- Bình Sơn và Phân khu III Khu dân cư, tái định cư Bình Sơn, thuộc dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không Quốc tế Long Thành",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+    "VBDI_DA_TRA_LAI": [
+      {
+        "id": "1",
+        "ngayNhan": "13/05/2021",
+        "soKyHieu": "57/BC-UBBC",
+        "ngayBanHanh": "08/05/2021",
+        "trichYeu": "Báo cáo nhanh tiến độ (Diễn tập lần 1) Công tác bầu cử đại biểu Quốc hội khóa XV và đại biểu HĐND các cấp nhiệm kỳ 2021-2026 (ngày 18/4/2021)",
+        "coQuanBanHanh": "UBND Thành Phố Bắc Giang",
+        "trangThai": "Đã trả lại"
+      },
+      {
+        "id": "2",
+        "ngayNhan": "10/03/2021",
+        "soKyHieu": "57/BC-UBBC",
+        "ngayBanHanh": "08/05/2021",
+        "trichYeu": "Báo cáo nhanh tiến độ (Diễn tập lần 1) Công tác bầu cử đại biểu Quốc hội khóa XV và đại biểu HĐND các cấp nhiệm kỳ 2021-2026 (ngày 18/4/2021)",
+        "coQuanBanHanh": "UBND Thành Phố Bắc Giang",
+        "trangThai": "Đã trả lại"
+      }
+    ],
+    "VBDI_CHO_Y_KIEN": [
+      {
+        "id": "3",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "298/TTDVNN-HCTH",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về việc bổ sung kinh phí thực hiện Đề án Tây Nam năm 2021 của Trung tâm Dịch vụ Nông nghiệp tỉnh Đồng Nai.",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "72/BC-BXD",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Về tình hình thực hiện xây dựng Khu dân cư, tái định cư Lộc An- Bình Sơn và Phân khu III Khu dân cư, tái định cư Bình Sơn, thuộc dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không Quốc tế Long Thành",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "5",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "303/TTDVNN-TVNLN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về tình hình thực hiện xây dựng Khu dân cư, tái định cư Lộc An- Bình Sơn và Phân khu III Khu dân cư, tái định cư Bình Sơn, thuộc dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không Quốc tế Long Thành",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+    "VBDI_CHO_CAP_SO": [
+      {
+        "id": "1",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "114/BC-PYT",
+        "ngayBanHanh": "18/04/2021",
+        "trichYeu": "Bc tình hình dịch bệnh Covid-19 ngày 18/4/2021",
+        "coQuanBanHanh": "UBND tỉnh Đồng Nai",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "2",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "303/TTDVNN-TVNLN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về việc giải quyết hiện tượng giống bắp 9919C trên địa bàn huyện Định Quán bị ảnh hưởng sâu bệnh, ra trái bất thường.",
+        "coQuanBanHanh": "Bộ Nông nghiệp và Phát triển nông thôn",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+  
+    "DATA_1": [
+      {
+        "id": "1",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "114/BC-PYT",
+        "ngayBanHanh": "18/04/2021",
+        "trichYeu": "Bc tình hình dịch bệnh Covid-19 ngày 18/4/2021",
+        "coQuanBanHanh": "UBND tỉnh Đồng Nai",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "2",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "303/TTDVNN-TVNLN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về việc giải quyết hiện tượng giống bắp 9919C trên địa bàn huyện Định Quán bị ảnh hưởng sâu bệnh, ra trái bất thường.",
+        "coQuanBanHanh": "Bộ Nông nghiệp và Phát triển nông thôn",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "3",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "298/TTDVNN-HCTH",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về việc bổ sung kinh phí thực hiện Đề án Tây Nam năm 2021 của Trung tâm Dịch vụ Nông nghiệp tỉnh Đồng Nai.",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "72/BC-BXD",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Về tình hình thực hiện xây dựng Khu dân cư, tái định cư Lộc An- Bình Sơn và Phân khu III Khu dân cư, tái định cư Bình Sơn, thuộc dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không Quốc tế Long Thành",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "5",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "303/TTDVNN-TVNLN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Về tình hình thực hiện xây dựng Khu dân cư, tái định cư Lộc An- Bình Sơn và Phân khu III Khu dân cư, tái định cư Bình Sơn, thuộc dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không Quốc tế Long Thành",
+        "coQuanBanHanh": "Bộ Xây dựng",
+        "trangThai": "Đã xử lý"
+      }
+    ],
+    "DATA_2": [
+      {
+        "id": "1",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "1200/TB-BYT",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "thông báo danh sách các trường hợp hoàn thành thời gian cách ly y tế tập trung tại Hải Dương",
+        "coQuanBanHanh": "Bộ Y tế",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "2",
+        "ngayNhan": "18/04/2021",
+        "soKyHieu": "503/TTg-CN",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "bảo đảm nguồn cung vật liệu xây dựng phục vụ thi công Dự án đầu tư xây dựng một số đoạn đường bộ cao tốc trên tuyến Bắc - Nam phía Đông giai đoạn 2017-2020",
+        "coQuanBanHanh": "Văn phòng Chính phủ",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "3",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "151/TTCNTT-HCTH",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Thực hiện kết luận rà soát bổ sung kinh phí năm 2021 của STNMT",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "4",
+        "ngayNhan": "19/04/2021",
+        "soKyHieu": "2357/VPĐK",
+        "ngayBanHanh": "17/04/2021",
+        "trichYeu": "Rà soát giấy chứng nhận bị mất",
+        "coQuanBanHanh": "Bộ Tài nguyên và Môi trường",
+        "trangThai": "Đã xử lý"
+      },
+      {
+        "id": "5",
+        "ngayNhan": "18/04/2021",
+        "soKyHieu": "477/BQL-LN",
+        "ngayBanHanh": "16/04/2021",
+        "trichYeu": "Đăng ký nhu cầu khai thác sử dụng dữ liệu viễn thám",
+        "coQuanBanHanh": "Bộ Nông nghiệp và Phát triển nông thôn",
+        "trangThai": "Đã xử lý"
+      }
+    ]
+  }
+  
